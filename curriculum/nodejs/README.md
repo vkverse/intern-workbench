@@ -1,5 +1,8 @@
 # NODE — Node.js
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [NODE-001 — Node Runtime, Modules, and Package Configuration](NODE-001.md)
 - [NODE-002 — Environment and Filesystem Operations](NODE-002.md)
 - [NODE-003 — Build an HTTP Server and Router](NODE-003.md)

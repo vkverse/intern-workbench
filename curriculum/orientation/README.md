@@ -1,5 +1,8 @@
 # ORI — Orientation
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [ORI-001 — Software Development and Team Roles](ORI-001.md)
 - [ORI-002 — Frontend, Backend, Client, and Server](ORI-002.md)
 - [ORI-003 — Browser, Files, and Folders](ORI-003.md)

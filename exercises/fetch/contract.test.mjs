@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {solution} from '../test-utils.mjs';
+const {loadItems}=await solution();
+test('calls endpoint once and returns items',async()=>{let calls=0;const result=await loadItems(async url=>{assert.equal(url,'/api/items');calls++;return {ok:true,json:async()=>({items:[{id:1}]})};});assert.equal(calls,1);assert.deepEqual(result,[{id:1}]);});
+test('empty array is valid',async()=>assert.deepEqual(await loadItems(async()=>({ok:true,json:async()=>({items:[]})})),[]));
+test('HTTP error preserves status',async()=>assert.rejects(()=>loadItems(async()=>({ok:false,status:503})),/503/));
+test('malformed structure rejects',async()=>{for(const body of [{},null,{items:'wrong'}])await assert.rejects(()=>loadItems(async()=>({ok:true,json:async()=>body})),TypeError);});
+test('JSON parsing error propagates',async()=>assert.rejects(()=>loadItems(async()=>({ok:true,json:async()=>{throw new SyntaxError('bad JSON');}})),SyntaxError));
+test('network error propagates',async()=>assert.rejects(()=>loadItems(async()=>{throw new Error('offline');}),/offline/));

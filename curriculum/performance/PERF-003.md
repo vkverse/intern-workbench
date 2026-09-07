@@ -12,7 +12,7 @@ skills:
   - performance
   - profiling
   - measurement
-status: active
+status: draft
 ---
 
 # PERF-003 — Optimize Network, Images, and Lazy Loading

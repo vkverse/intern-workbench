@@ -1,5 +1,8 @@
 # AUTH — Authentication and Authorization
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [AUTH-001 — Authentication, Authorization, and Threat Models](AUTH-001.md)
 - [AUTH-002 — Register Users and Hash Passwords](AUTH-002.md)
 - [AUTH-003 — Login, Logout, Cookies, and Sessions](AUTH-003.md)

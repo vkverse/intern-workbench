@@ -12,7 +12,7 @@ skills:
   - delivery
   - architecture
   - communication
-status: active
+status: draft
 ---
 
 # FINAL-005 — Implement Core Features through Focused Pull Requests

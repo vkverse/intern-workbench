@@ -12,7 +12,7 @@ skills:
   - delivery
   - architecture
   - communication
-status: active
+status: draft
 ---
 
 # FINAL-007 — Complete Security, Performance, Documentation, and CI Reviews

@@ -12,7 +12,7 @@ skills:
   - github-actions
   - ci
   - automation
-status: active
+status: draft
 ---
 
 # CICD-001 — CI/CD Concepts and Workflow Files

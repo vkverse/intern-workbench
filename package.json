@@ -1,15 +1,19 @@
 {
   "name": "intern-workbench",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "private": true,
   "description": "GitHub-native internship curriculum and workflow framework",
   "type": "module",
   "scripts": {
-    "validate": "node scripts/validation/validate.mjs",
-    "catalogue": "node scripts/curriculum/catalogue.mjs"
+    "validate": "node scripts/validation/framework.mjs",
+    "catalogue": "node scripts/curriculum/index.mjs",
+    "catalogue:write": "node scripts/curriculum/index.mjs --write",
+    "workbench": "node scripts/workbench.mjs",
+    "test": "node --test tests/framework.test.mjs tests/contracts.test.mjs tests/cli.test.mjs",
+    "check:submissions": "node scripts/check-submissions.mjs"
   },
   "engines": {
-    "node": ">=20"
+    "node": "^22.0.0 || ^24.0.0"
   },
   "license": "MIT"
 }

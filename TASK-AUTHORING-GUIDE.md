@@ -1,14 +1,21 @@
-# Task Authoring Guide
+# Task authoring
 
-1. Choose the existing phase or propose a documented new phase. Allocate the next unused three-digit number; never reuse or renumber an ID, including deprecated tasks.
-2. Copy [templates/task/TASK-TEMPLATE.md](templates/task/TASK-TEMPLATE.md) and complete every section.
-3. Use one of LEARN, BUILD, DEBUG, REFACTOR, REVIEW, INVESTIGATE, DOCUMENT, DESIGN, or PROJECT.
-4. Use GUIDED, PARTIALLY-GUIDED, INDEPENDENT, or AMBIGUOUS and make the amount of procedural help match it.
-5. Reference only existing stable task IDs as prerequisites. Prefer a dependency graph over a single chain.
-6. State exact files, observable acceptance criteria, reproducible run/test commands, required evidence, AI disclosure, and a mentor checklist.
-7. Use `task/<github-username>/<task-id>-<slug>` for task branches so parallel intern work stays identifiable and collision-free.
-8. Keep shared explanations in `docs/`; tasks should be executable specifications, not textbooks.
-9. Add the task to the catalogue and run validation.
+Metadata uses a deliberately restricted YAML subset: unquoted one-line scalar values and indented string lists. See existing active tasks. Supported statuses: draft, active, deprecated.
 
-Deprecate with `status: deprecated`; keep the file and ID reserved. Estimates describe focused work, not deadlines. Review task usefulness and maintenance cost before adding it.
+Keep permanent phase IDs. A task ID is never a GitHub Issue or PR number. Do not reuse IDs or renumber tasks when changing a route.
+
+Before activating a task:
+
+1. Write a specific product behavior or investigation with inputs, expected outputs, failure cases and restrictions.
+2. Add exercises/EXERCISE/README.md and any starter files. Add exercise: EXERCISE to task metadata.
+3. Give exact preparation, execution and checking commands. Preparation must not provide a finished learner solution.
+4. Link prerequisites to active tasks; allow independent branches in the learning route.
+5. Supply observable acceptance criteria and mentor questions that exercise understanding.
+6. Use task/<github-username>/<task-id>-<slug> and submissions/<github-username>/TASK-ID.
+7. Explain objective checks separately from manual review.
+8. Run npm run catalogue:write, npm run validate and npm test.
+
+Add tests with the Node test runner when behavior can be checked objectively. Include negative cases that would catch the original bug. Existing maintainer contract regression tests demonstrate the pattern.
+
+Use [canonical headings](templates/task/TASK-TEMPLATE.md), [AI policy](AI-USAGE.md), and [starter route](tracks/starter.md). Deprecate an ID without deleting its history.
 

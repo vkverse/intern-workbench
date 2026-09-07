@@ -12,7 +12,7 @@ skills:
   - github-actions
   - ci
   - automation
-status: active
+status: draft
 ---
 
 # CICD-003 — Automate Lint, Format, and Type Checks

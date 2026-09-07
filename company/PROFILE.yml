@@ -5,5 +5,5 @@ primary_stack:
   package_manager: npm
 mentor_contact: "Use an internal team alias"
 approved_ai_tools: []
-default_curriculum_route: standard
+default_curriculum_route: starter
 

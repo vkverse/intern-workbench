@@ -12,7 +12,7 @@ skills:
   - refactoring
   - maintainability
   - code-quality
-status: active
+status: draft
 ---
 
 # QUALITY-006 — Improve Errors, Logging, and Configuration

@@ -1,0 +1,11 @@
+import http from 'node:http';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+import {root,submissionPath} from './workbench.mjs';
+const username=process.argv[2];
+const {handler}=await import(pathToFileURL(path.join(submissionPath(root,username||'','NODE-003'),'solution.mjs')));
+const port=Number(process.env.PORT||3001);
+const server=http.createServer(handler);
+server.on('error',error=>{console.error(error.message);process.exitCode=1;});
+server.listen(port,'127.0.0.1',()=>console.log('Listening at http://127.0.0.1:'+server.address().port+' (Ctrl+C to stop)'));
+process.on('SIGINT',()=>{server.closeAllConnections();server.close();});

@@ -12,7 +12,7 @@ skills:
   - product-engineering
   - investigation
   - independence
-status: active
+status: draft
 ---
 
 # REAL-003 — Convert a Product Requirement into a Technical Plan

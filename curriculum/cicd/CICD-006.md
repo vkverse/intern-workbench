@@ -12,7 +12,7 @@ skills:
   - github-actions
   - ci
   - automation
-status: active
+status: draft
 ---
 
 # CICD-006 — Handle Environments and Deployment Concepts

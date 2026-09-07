@@ -12,7 +12,7 @@ skills:
   - testing
   - automation
   - edge-cases
-status: active
+status: draft
 ---
 
 # TEST-008 — Repair Failing Tests and Enforce Them in CI

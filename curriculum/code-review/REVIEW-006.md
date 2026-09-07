@@ -12,7 +12,7 @@ skills:
   - code-review
   - communication
   - risk
-status: active
+status: draft
 ---
 
 # REVIEW-006 — Complete a Review and Respond to Feedback

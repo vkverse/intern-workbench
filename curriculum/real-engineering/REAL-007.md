@@ -12,7 +12,7 @@ skills:
   - product-engineering
   - investigation
   - independence
-status: active
+status: draft
 ---
 
 # REAL-007 — Handle a Production-Like Incident

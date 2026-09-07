@@ -12,7 +12,7 @@ skills:
   - nodejs
   - backend
   - architecture
-status: active
+status: draft
 ---
 
 # NODE-006 — Validation, Errors, and Logging

@@ -12,7 +12,7 @@ skills:
   - product-engineering
   - investigation
   - independence
-status: active
+status: draft
 ---
 
 # REAL-001 — Investigate a Slow Dashboard

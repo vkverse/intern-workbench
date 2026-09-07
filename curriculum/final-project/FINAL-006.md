@@ -12,7 +12,7 @@ skills:
   - delivery
   - architecture
   - communication
-status: active
+status: draft
 ---
 
 # FINAL-006 — Respond to a Requirement Change and Bug Report

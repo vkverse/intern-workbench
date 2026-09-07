@@ -12,7 +12,7 @@ skills:
   - react
   - components
   - testing
-status: active
+status: draft
 ---
 
 # REACT-007 — Refs and Custom Hooks

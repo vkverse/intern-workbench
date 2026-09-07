@@ -1,0 +1,39 @@
+name: Workbench checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [22, 24]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: ${{ matrix.node }}
+          package-manager-cache: false
+      - run: npm ci
+      - run: npm run validate
+      - run: npm test
+      - run: npm run check:submissions
+  validate:
+    # Keep the existing required branch-protection check name.
+    if: always()
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Require all matrix jobs to pass
+        env:
+          RESULT: ${{ needs.test.result }}
+        run: test "$RESULT" = "success"

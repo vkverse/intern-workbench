@@ -12,7 +12,7 @@ skills:
   - react
   - components
   - testing
-status: active
+status: draft
 ---
 
 # REACT-008 — Context and State Boundaries

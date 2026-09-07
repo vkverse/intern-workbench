@@ -12,7 +12,7 @@ skills:
   - authentication
   - authorization
   - security
-status: active
+status: draft
 ---
 
 # AUTH-001 — Authentication, Authorization, and Threat Models

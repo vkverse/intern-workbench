@@ -12,7 +12,7 @@ skills:
   - product-engineering
   - investigation
   - independence
-status: active
+status: draft
 ---
 
 # REAL-005 — Refactor an Unfamiliar Legacy Feature

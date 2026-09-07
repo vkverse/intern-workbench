@@ -12,7 +12,7 @@ skills:
   - nextjs
   - app-router
   - full-stack
-status: active
+status: draft
 ---
 
 # NEXT-005 — Metadata, Images, and SEO

@@ -12,7 +12,7 @@ skills:
   - html
   - accessibility
   - semantics
-status: active
+status: draft
 ---
 
 # HTML-005 — Add Metadata and SEO Fundamentals

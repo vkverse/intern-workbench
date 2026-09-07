@@ -12,7 +12,7 @@ skills:
   - delivery
   - architecture
   - communication
-status: active
+status: draft
 ---
 
 # FINAL-002 — Create Milestones, Issues, and an Architecture Plan

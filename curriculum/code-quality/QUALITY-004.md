@@ -12,7 +12,7 @@ skills:
   - refactoring
   - maintainability
   - code-quality
-status: active
+status: draft
 ---
 
 # QUALITY-004 — Recognize Code Smells and SOLID Boundaries

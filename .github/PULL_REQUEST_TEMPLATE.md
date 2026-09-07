@@ -1,38 +1,37 @@
-# Task ID
+## Task ID and Issue
 
-<!-- Example: JS-006 -->
+Task ID or framework improvement:
+Closes #N (replace N with the target repository Issue number)
 
-## Issue
+## Outcome and Implementation
 
-Closes #
+What changed and why? Which task requirements does the diff address?
 
-## Summary
-## Implementation
-## Testing
-## Edge Cases
+## Testing and Evidence
+
+List exact commands actually run, outcomes, manual observations, and checks not performed.
+
+## Edge Cases and Limitations
+
 ## Documentation
 
 ## AI Usage
 
 - AI used: Yes / No
-- Tools used:
-- Purpose:
-- What AI helped with:
-- What I personally implemented:
-- What I changed from AI output:
-- How I verified the result:
-- Can I explain this implementation? Yes / No
+- Tools and purpose:
+- What was generated:
+- What I personally wrote or changed:
+- What I actually verified:
+- Can I explain this work? Yes / Not yet
+- If the assigned policy disallows AI, link mentor permission or report the deviation.
 
 ## Self Review
 
-- [ ] Requirements satisfied
-- [ ] Tests pass
-- [ ] Code formatted
-- [ ] No unnecessary changes
-- [ ] No secrets committed
-- [ ] Documentation updated
-- [ ] I understand the submitted code
+- [ ] I compared the diff with the task requirements.
+- [ ] I recorded checks actually performed.
+- [ ] I reviewed the files for unrelated changes and sensitive data.
+- [ ] I updated necessary documentation.
+- [ ] I can explain the submitted work, or explicitly identified what I cannot yet explain.
 
-## Screenshots / Evidence
 ## Notes for Reviewer
 

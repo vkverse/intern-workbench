@@ -12,7 +12,7 @@ skills:
   - nextjs
   - app-router
   - full-stack
-status: active
+status: draft
 ---
 
 # NEXT-010 — Build, Diagnose, and Prepare for Production

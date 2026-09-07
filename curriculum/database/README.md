@@ -1,5 +1,8 @@
 # DB — PostgreSQL and Databases
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [DB-001 — Database, Table, Row, and Key Fundamentals](DB-001.md)
 - [DB-002 — Query with SELECT and WHERE](DB-002.md)
 - [DB-003 — Write with INSERT, UPDATE, and DELETE](DB-003.md)

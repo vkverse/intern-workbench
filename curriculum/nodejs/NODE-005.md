@@ -12,7 +12,7 @@ skills:
   - nodejs
   - backend
   - architecture
-status: active
+status: draft
 ---
 
 # NODE-005 — Controllers, Services, and Separation of Concerns

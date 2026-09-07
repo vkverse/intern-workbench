@@ -12,7 +12,7 @@ skills:
   - nodejs
   - backend
   - architecture
-status: active
+status: draft
 ---
 
 # NODE-001 — Node Runtime, Modules, and Package Configuration

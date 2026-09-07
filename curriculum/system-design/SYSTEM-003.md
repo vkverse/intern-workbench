@@ -12,7 +12,7 @@ skills:
   - system-design
   - reliability
   - tradeoffs
-status: active
+status: draft
 ---
 
 # SYSTEM-003 — Design Caching, Queues, and Stateless Work

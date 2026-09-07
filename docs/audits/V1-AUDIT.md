@@ -1,12 +1,6 @@
-# V1 Quality Audit
+# Historical audit correction
 
-- 206 tasks fall within the 150–250 scope target.
-- Every task has unique phase-based metadata, existing prerequisites, required sections, acceptance criteria, files, run/test instructions, evidence, AI disclosure, submission steps, mentor checklist, and definition of done.
-- Shared docs hold repeated workflow guidance.
-- The catalogue, phase indexes, filenames, and metadata are generated from one source and validated.
-- Projects cover beginner, intermediate, full-stack, advanced, and final work.
-- Automation checks objective repository properties only.
-- Public content contains examples/placeholders rather than credentials or company secrets.
+The initial audit checked file structure and task counts but did not establish curriculum completeness. Several exercise fixtures were absent and requirements were generic. The original v1 completion claim is withdrawn.
 
-Run `npm run validate` for the executable numbering, dependency, structure, and placeholder audit.
+See [v0.5 release scope](../releases/v0.5.md) for the current verified boundary. A task can be structurally valid while still being a draft outline.
 

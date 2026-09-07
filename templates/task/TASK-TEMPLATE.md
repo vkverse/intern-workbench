@@ -8,7 +8,7 @@ guidance: GUIDED
 estimated_time: 1-2 hours
 prerequisites: []
 skills: []
-status: active
+status: draft
 ---
 
 # PHASE-NNN — Title

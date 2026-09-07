@@ -12,7 +12,7 @@ skills:
   - delivery
   - architecture
   - communication
-status: active
+status: draft
 ---
 
 # FINAL-003 — Design the Database, API, UI, and Test Strategy

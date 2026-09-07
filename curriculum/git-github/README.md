@@ -1,5 +1,8 @@
 # GIT — Git and GitHub
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [GIT-001 — Install and Configure Git](GIT-001.md)
 - [GIT-002 — Create a Repository and Inspect Status](GIT-002.md)
 - [GIT-003 — Stage, Commit, Log, and Diff](GIT-003.md)

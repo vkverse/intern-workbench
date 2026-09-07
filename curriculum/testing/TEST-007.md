@@ -12,7 +12,7 @@ skills:
   - testing
   - automation
   - edge-cases
-status: active
+status: draft
 ---
 
 # TEST-007 — Test Authentication and Edge Cases

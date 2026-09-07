@@ -12,7 +12,7 @@ skills:
   - authentication
   - authorization
   - security
-status: active
+status: draft
 ---
 
 # AUTH-008 — Audit and Harden an Authentication Feature

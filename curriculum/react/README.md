@@ -1,5 +1,8 @@
 # REACT — React
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [REACT-001 — Components, JSX, and Props](REACT-001.md)
 - [REACT-002 — State, Events, and Conditional Rendering](REACT-002.md)
 - [REACT-003 — Lists, Keys, and Composition](REACT-003.md)

@@ -12,7 +12,7 @@ skills:
   - authentication
   - authorization
   - security
-status: active
+status: draft
 ---
 
 # AUTH-003 — Login, Logout, Cookies, and Sessions

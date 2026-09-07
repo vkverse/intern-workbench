@@ -12,7 +12,7 @@ skills:
   - html
   - accessibility
   - semantics
-status: active
+status: draft
 ---
 
 # HTML-002 — Structure Text, Links, Images, and Lists

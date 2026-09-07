@@ -1,5 +1,8 @@
 # HTML — HTML
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [HTML-001 — Create a Semantic HTML Document](HTML-001.md)
 - [HTML-002 — Structure Text, Links, Images, and Lists](HTML-002.md)
 - [HTML-003 — Build Accessible Tables](HTML-003.md)

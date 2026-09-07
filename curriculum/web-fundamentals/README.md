@@ -1,5 +1,8 @@
 # WEB — Web Fundamentals
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [WEB-001 — Trace the Internet, DNS, and HTTPS](WEB-001.md)
 - [WEB-002 — Inspect HTTP Requests and Responses](WEB-002.md)
 - [WEB-003 — Methods, Status Codes, and Headers](WEB-003.md)

@@ -1,5 +1,8 @@
 # SEC — Security
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [SEC-001 — Adopt a Practical Security Mindset](SEC-001.md)
 - [SEC-002 — Find and Fix Cross-Site Scripting](SEC-002.md)
 - [SEC-003 — Find and Fix CSRF](SEC-003.md)

@@ -12,7 +12,7 @@ skills:
   - html
   - accessibility
   - semantics
-status: active
+status: draft
 ---
 
 # HTML-007 — Build a Product and Documentation Page

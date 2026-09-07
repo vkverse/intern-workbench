@@ -12,7 +12,7 @@ skills:
   - nextjs
   - app-router
   - full-stack
-status: active
+status: draft
 ---
 
 # NEXT-008 — Data Fetching and Caching

@@ -1,5 +1,9 @@
 # Development Workflow
 
+See [ONBOARDING](ONBOARDING.md) for fork/clone commands and
+[MENTOR-GUIDE](MENTOR-GUIDE.md) for training-repository setup.
+Use `submissions/<github-username>/<TASK-ID>/` for active v0.5 assignments.
+
 ## Issue to merge
 
 1. Mentor creates an Issue titled `[TASK-ID] Task title` and assigns it.

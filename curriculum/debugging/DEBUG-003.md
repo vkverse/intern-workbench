@@ -12,7 +12,7 @@ skills:
   - debugging
   - root-cause-analysis
   - verification
-status: active
+status: draft
 ---
 
 # DEBUG-003 — Use Breakpoints and Stack Traces

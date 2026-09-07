@@ -12,7 +12,7 @@ skills:
   - authentication
   - authorization
   - security
-status: active
+status: draft
 ---
 
 # AUTH-007 — Validate and Test Authentication Flows
