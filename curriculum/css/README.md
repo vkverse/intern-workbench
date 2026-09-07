@@ -1,5 +1,8 @@
 # CSS — CSS
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [CSS-001 — Selectors, Cascade, Specificity, and Inheritance](CSS-001.md)
 - [CSS-002 — Colors, Units, and Typography](CSS-002.md)
 - [CSS-003 — Box Model, Spacing, and Borders](CSS-003.md)

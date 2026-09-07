@@ -12,7 +12,7 @@ skills:
   - performance
   - profiling
   - measurement
-status: active
+status: draft
 ---
 
 # PERF-001 — Establish a Performance Baseline

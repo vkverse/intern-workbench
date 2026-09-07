@@ -12,7 +12,7 @@ skills:
   - documentation
   - technical-writing
   - verification
-status: active
+status: draft
 ---
 
 # DOCS-002 — Document Architecture and Environment Variables

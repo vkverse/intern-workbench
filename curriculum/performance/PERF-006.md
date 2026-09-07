@@ -12,7 +12,7 @@ skills:
   - performance
   - profiling
   - measurement
-status: active
+status: draft
 ---
 
 # PERF-006 — Implement Caching and Prove the Improvement

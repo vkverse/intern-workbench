@@ -1,5 +1,8 @@
 # DEBUG — Debugging
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [DEBUG-001 — Use a Repeatable Debugging Method](DEBUG-001.md)
 - [DEBUG-002 — Debug with Browser DevTools and the Console](DEBUG-002.md)
 - [DEBUG-003 — Use Breakpoints and Stack Traces](DEBUG-003.md)

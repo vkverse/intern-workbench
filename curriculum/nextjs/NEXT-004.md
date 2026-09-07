@@ -12,7 +12,7 @@ skills:
   - nextjs
   - app-router
   - full-stack
-status: active
+status: draft
 ---
 
 # NEXT-004 — Loading, Error, and Not Found UI

@@ -1,5 +1,8 @@
 # Intern Guide
 
+New here? Follow [ONBOARDING](ONBOARDING.md) first. Use only active tasks in the
+[starter route](tracks/starter.md); draft outlines are not assignments.
+
 ## The working loop
 
 1. Read the assigned Issue and its curriculum task; confirm prerequisites and acceptance criteria.

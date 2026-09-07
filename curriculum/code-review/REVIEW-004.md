@@ -12,7 +12,7 @@ skills:
   - code-review
   - communication
   - risk
-status: active
+status: draft
 ---
 
 # REVIEW-004 — Review Tests and Missing Edge Cases

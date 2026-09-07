@@ -12,7 +12,7 @@ skills:
   - debugging
   - root-cause-analysis
   - verification
-status: active
+status: draft
 ---
 
 # DEBUG-005 — Diagnose Backend and Database Failures

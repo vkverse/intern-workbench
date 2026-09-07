@@ -12,7 +12,7 @@ skills:
   - docker
   - containers
   - local-development
-status: active
+status: draft
 ---
 
 # DOCKER-001 — Images, Containers, and Dockerfiles

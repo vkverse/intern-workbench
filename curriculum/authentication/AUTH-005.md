@@ -12,7 +12,7 @@ skills:
   - authentication
   - authorization
   - security
-status: active
+status: draft
 ---
 
 # AUTH-005 — Protect Routes and Handle Auth Errors

@@ -12,7 +12,7 @@ skills:
   - documentation
   - technical-writing
   - verification
-status: active
+status: draft
 ---
 
 # DOCS-006 — Audit and Improve Existing Documentation

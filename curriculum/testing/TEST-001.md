@@ -12,7 +12,7 @@ skills:
   - testing
   - automation
   - edge-cases
-status: active
+status: draft
 ---
 
 # TEST-001 — Testing Strategy, Assertions, and Structure

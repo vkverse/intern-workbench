@@ -3,131 +3,111 @@ id: NODE-003
 phase: NODE
 title: Build an HTTP Server and Router
 type: BUILD
-difficulty: intermediate
-guidance: PARTIALLY-GUIDED
+difficulty: beginner
+guidance: GUIDED
 estimated_time: 2-3 hours
 prerequisites:
-  - NODE-002
+  - JS-010
 skills:
-  - nodejs
-  - backend
-  - architecture
+  - api
+  - evidence
 status: active
+exercise: api
 ---
 
 # NODE-003 — Build an HTTP Server and Router
 
 ## Objective
 
-Complete a reviewable engineering exercise that demonstrates **build an http server and router** and explain the decisions you made.
+Serve a small read-only HTTP API.
 
 ## Context
 
-This is task 3 in the Node.js phase. It builds one durable skill inside the same GitHub workflow used for product work: issue, branch, implementation, validation, pull request, review, and revision.
+This v0.5 exercise is part of the [starter route](../../tracks/starter.md). Read the [exercise contract](../../exercises/api/README.md) before editing. Your mentor agrees the assignment and AI policy in an Issue.
 
 ## What You Need to Learn
 
-- The core concepts behind build an http server and router.
-- How to recognize success and failure using observable evidence.
-- How this skill affects users, maintainers, and adjacent systems.
+Use the concepts in the requirements below and the official references in the exercise contract. Explain unfamiliar terms in your own words; do not reproduce a tutorial.
 
 ## Requirements
 
-1. Create or update the task artifact under `projects/full-stack/api/node-003/`; do not scatter unrelated changes across the repository.
-2. Add a short `README.md` in that task artifact containing the problem, your plan, commands used, and result.
-3. Produce the smallest working example or analysis that demonstrates build an http server and router.
-4. Cover one normal case, one edge case, and one failure case relevant to the task.
-5. Record at least one tradeoff or alternative you considered.
-6. Keep the change reproducible by another intern from a clean checkout.
+1. Implement handler(req,res) in solution.mjs using Node HTTP. GET /health returns status 200 and {status:"ok"}; GET /api/items returns 200 and {items:[]}.
+2. Unknown paths return 404 with {error:"Not found"}; unsupported methods return 405 with {error:"Method not allowed"}. All responses use application/json.
+3. Use the provided localhost runner; ensure responses end and the server closes cleanly.
 
 ## Files / Folders
 
-- Primary workspace: `projects/full-stack/api/node-003/`
-- Evidence: `projects/full-stack/api/node-003/README.md`
-- Tests or checks: colocate with the implementation using the project convention.
+Run `npm run workbench -- start NODE-003 octocat` from the repository root after replacing `octocat` with your GitHub username. Work in `submissions/<github-username>/NODE-003/`. Keep shared curriculum and exercise contracts unchanged.
 
 ## Implementation Guidance
 
-Write a short plan first, then choose the implementation details yourself.
-
-Start with a failing observation or explicit expected outcome. Work in small increments and keep command output needed for review concise.
+Read the contract, predict the result of one example, then implement a small step and check it. The preparation command creates an evidence README and starter files where needed; it refuses to overwrite existing work. For design/review work, choose your own structure within the stated deliverables.
 
 ## Restrictions
 
-Keep transport, business logic, and persistence boundaries testable.
-
-- Do not commit generated dependencies, build output, credentials, tokens, or personal data.
-- Do not change unrelated files or weaken an existing check to make validation pass.
+Use fictional data. Do not weaken provided checks, copy other interns' submissions, or claim evidence you did not collect. AI policy comes from your assigned Issue; if it prohibits AI, request a policy exception before using it. An assisted workflow demonstration is not proof of independent competence.
 
 ## Acceptance Criteria
 
-- [ ] The artifact directly demonstrates build an http server and router.
-- [ ] A reviewer can reproduce the result using only committed instructions.
-- [ ] Normal, edge, and failure behavior are covered.
-- [ ] The implementation or analysis is scoped to this task.
-- [ ] Decisions and tradeoffs are explained in the task README.
-- [ ] No secrets, machine-specific paths, or unrelated formatting changes are present.
+- [ ] Endpoint contract passes automated real HTTP requests.
+- [ ] Response status and content type are correct, including error paths.
+- [ ] No database or authentication is needed for this isolated HTTP exercise.
 
 ## How to Run
 
-From the repository root, enter `projects/full-stack/api/node-003` and follow its README. If the task is documentation or investigation only, render/preview the Markdown and run the repository validation command instead.
+From the repository root: `npm run workbench -- start NODE-003 octocat`. Replace `octocat` before running. For HTML, open your submission's index.html in a browser. For NODE-003, use the HTTP runner documented in the exercise contract. For function tasks, the test command below executes your solution. For documentation, preview README.md in your editor.
 
 ## How to Test
 
-Run `npm run validate` from the repository root. Also run the closest project-specific test, build, or manual check documented in the artifact README.
+Run `npm run workbench -- check NODE-003 octocat` and `npm run validate` from the root. Replace `octocat` with your username. The first command checks submission evidence plus available exercise tests; the second validates the framework. Browser behavior and prose accuracy need manual review. A starter may intentionally fail until completed.
 
 ## Expected Evidence
 
-- Commands run and their pass/fail outcome.
-- Tests, screenshots, request traces, query plans, or diagrams appropriate to the work.
-- A concise before/after comparison for debugging, refactoring, security, and performance work.
+Fill Outcome, Approach, Evidence, Reflection, and AI Usage in your submission README. Include actual commands and outcomes, observed failures, and task-specific examples. Add screenshots or traces when required by acceptance criteria; remove sensitive data.
 
 ## Documentation Requirements
 
-Document setup, execution, validation, limitations, and any assumption that affects the result. Link to official references instead of copying long tutorials.
+Explain one decision, one limitation, and what another intern must do to reproduce your result. Keep factual evidence separate from planned work.
 
 ## AI Usage Requirements
 
-Complete the PR template's AI Usage section. If AI was used, identify what it suggested, what you changed, how you verified it, and one part you can explain without assistance.
+State Yes or No truthfully. When Yes, name tools, what was generated, your changes, and actual verification. Leave understanding as unverified until you can explain the submission to the mentor.
 
 ## Submission Instructions
 
-1. Confirm the assigned issue title starts with `[NODE-003]`.
-2. Create the required branch, commit only task-related work, push it, and open a pull request.
-3. Link the issue, include evidence, request review, and respond to every review thread.
+Create the assigned Issue first. Implement on your branch, run checks, commit only your submission directory, push to your fork, and open a PR targeting the mentor repository. Follow [onboarding](../../ONBOARDING.md).
 
 ## Branch Name
 
-`task/<github-username>/node-003-build-an-http-server-and-router`
+`task/<github-username>/node-003-api`
+
+Replace the placeholder; for example `task/octocat/node-003-api`.
 
 ## Commit Message
 
-`build: complete node-003 build an http server and router`
+`docs: submit NODE-003 evidence` for documentation; use `feat:` or `fix:` when implementing behavior.
 
 ## Pull Request Requirements
 
-Use the repository PR template, link the issue with `Closes #<issue-number>`, list validation commands, disclose AI usage, and attach evidence appropriate to the task.
+Include task ID, the actual assigned Issue number, validation results, AI disclosure, and limitations. Use `Closes #N` only after replacing N with the Issue number in the target repository. Do not self-certify learning outcomes you have not demonstrated.
 
 ## Mentor Review Checklist
 
-- [ ] Ask the intern to explain the core concept and one decision without reading notes.
-- [ ] Confirm the evidence proves the acceptance criteria rather than merely showing activity.
-- [ ] Inspect edge/failure handling and the scope of the diff.
-- [ ] Check that tests would fail for a meaningful regression.
-- [ ] Evaluate independence at the expected `PARTIALLY-GUIDED` level.
+- [ ] Verify: Endpoint contract passes automated real HTTP requests.
+- [ ] Verify: Response status and content type are correct, including error paths.
+- [ ] Verify: No database or authentication is needed for this isolated HTTP exercise.
+- [ ] Ask the intern to explain one example and respond to one changed requirement.
+- [ ] Check AI policy compliance separately from test results.
 
 ## Common Mistakes
 
-- Treating command completion as proof that the requirement is satisfied.
-- Copying a solution without explaining its behavior or limitations.
-- Testing only the happy path.
-- Expanding scope or modifying unrelated code.
+Treating green framework CI as proof that the task is complete; editing the supplied contract; working in another intern's directory; using a placeholder literally in a shell command.
 
 ## Definition of Done
 
-The acceptance criteria pass, repository validation succeeds, the PR contains reproducible evidence and AI disclosure, review feedback is resolved, and the intern can explain the work.
+The deliverables satisfy the task-specific acceptance criteria, evidence is truthful, checks pass, and the mentor has reviewed and merged the PR. Completion records an exercise outcome, not a certification of developer readiness.
 
 ## Optional Extension
 
-Demonstrate a second approach, compare its tradeoffs, and explain when it would be preferable. Do not include the extension in the main implementation unless the mentor agrees.
+Propose one additional case relevant to this exercise and explain why it matters. Obtain mentor agreement before extending the implementation.
 

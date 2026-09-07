@@ -1,13 +1,10 @@
-# Suggested Internship Schedules
+# Internship schedules
 
-Schedules are planning aids. Baseline the intern, choose tasks that provide evidence, and adjust weekly.
+The maintained v0.5 [starter route](../tracks/starter.md) supports a supervised four-week pilot, adjustable to experience and mentor capacity.
 
-| Length | Fast track | Standard track | Slow track |
-|---|---|---|---|
-| 4 weeks | Baseline; JS/TS/React; full-stack slice; REAL capstone | Foundations; JS/React project; testing/debugging; scoped final | Orientation/Git; HTML/CSS; JS project; review and retrospective |
-| 8 weeks | Foundations; frontend; backend/data; auth/security; testing/CI; REAL; final | Two weeks foundations; two frontend; two backend/data; quality; final | Foundations; browser app; typed React; API/data; selected quality; final slice |
-| 12 weeks | Broad curriculum with two REAL rotations and modular final | Foundations; frontend; web/backend; data/auth; quality/ops; three-week final | Additional guided practice, checkpoint projects, and four-week final |
-| 16 weeks | Broad route plus company tasks, operations, and final release | Foundation depth, three projects, REAL rotation, four-week final | Deliberate pacing, remediation weeks, paired reviews, and modular final |
+- Fast: assess foundations and omit exercises whose outcomes the intern already demonstrates.
+- Standard: allow time for implementation, review, revisions and reflection.
+- Slow: repeat concepts through new examples and extend the pilot rather than rushing reviews.
 
-Every week should include an Issue, PR, CI evidence, mentor review, reflection, and one explicit independence goal.
+Eight-, twelve-, and sixteen-week internships need additional company work or completed draft tracks. v0.5 does not claim to provide a full validated schedule at those lengths. Select tasks from the [catalogue](../CURRICULUM.md) by status and prerequisites, not task count.
 

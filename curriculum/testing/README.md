@@ -1,5 +1,8 @@
 # TEST — Testing
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [TEST-001 — Testing Strategy, Assertions, and Structure](TEST-001.md)
 - [TEST-002 — Write Focused Unit Tests](TEST-002.md)
 - [TEST-003 — Write Integration Tests](TEST-003.md)

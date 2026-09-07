@@ -12,7 +12,7 @@ skills:
   - docker
   - containers
   - local-development
-status: active
+status: draft
 ---
 
 # DOCKER-002 — Ports, Volumes, and Environment Variables

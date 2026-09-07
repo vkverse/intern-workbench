@@ -1,5 +1,8 @@
 # FINAL — Final Project
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [FINAL-001 — Select the Product and Clarify Requirements](FINAL-001.md)
 - [FINAL-002 — Create Milestones, Issues, and an Architecture Plan](FINAL-002.md)
 - [FINAL-003 — Design the Database, API, UI, and Test Strategy](FINAL-003.md)

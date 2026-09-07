@@ -12,7 +12,7 @@ skills:
   - docker
   - containers
   - local-development
-status: active
+status: draft
 ---
 
 # DOCKER-005 — Compose an App with PostgreSQL

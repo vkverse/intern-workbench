@@ -1,15 +1,10 @@
-# Fresh-Intern Simulation
+# Fresh-intern simulation record
 
-## Scenario and result
+The September 2026 two-account pilot used vkverse as mentor and vicky-dot20 as intern. PR #2 exercised direct-push rejection, fork submission, workflow approval, review changes, revision and merge. PR #4 exercised an orientation submission. Both were assisted by AI.
 
-A reviewer started only from `ONBOARDING.md`, followed the clone/install/validate path, found ORI-001 through the catalogue, created the prescribed branch, located the named artifact folder, validated, committed, and populated the PR template. The mentor then assigned, reviewed, requested a documentation change, re-reviewed, approved, merged, and selected the next task.
+This tested collaboration mechanics, not an independent beginner's ability to learn the curriculum. The original wording claiming a complete fresh-intern simulation was too strong.
 
-## Ambiguities found and resolved
+For v0.5, automated sandbox tests exercise preparation, failed/incomplete evidence, executable contracts, and framework validation. Human pilot still needed: ask a new intern to follow ONBOARDING.md without extra procedural coaching; log time, questions, unclear paths and review outcomes. Obtain consent before collecting learner feedback.
 
-- The starting document now says not to read the full repository.
-- Commands show the required working directory and safe pull behavior.
-- Every task names its artifact path, branch, commit, checks, evidence, and help boundary.
-- Task IDs are explicitly separated from Issue/PR numbers.
-- Review revisions stay on the same branch and require re-validation.
-- AI disclosure asks for verification and explanation rather than authorship claims.
+Do not record unperformed tests as passed.
 

@@ -12,7 +12,7 @@ skills:
   - github-actions
   - ci
   - automation
-status: active
+status: draft
 ---
 
 # CICD-004 — Automate Tests and Builds

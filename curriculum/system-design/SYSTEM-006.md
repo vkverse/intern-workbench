@@ -12,7 +12,7 @@ skills:
   - system-design
   - reliability
   - tradeoffs
-status: active
+status: draft
 ---
 
 # SYSTEM-006 — Review a Production Architecture

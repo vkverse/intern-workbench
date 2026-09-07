@@ -1,5 +1,8 @@
 # REAL — Real Engineering
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [REAL-001 — Investigate a Slow Dashboard](REAL-001.md)
 - [REAL-002 — Diagnose an Unknown Product Bug](REAL-002.md)
 - [REAL-003 — Convert a Product Requirement into a Technical Plan](REAL-003.md)

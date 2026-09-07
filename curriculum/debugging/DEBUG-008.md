@@ -12,7 +12,7 @@ skills:
   - debugging
   - root-cause-analysis
   - verification
-status: active
+status: draft
 ---
 
 # DEBUG-008 — Run a Production-Like Incident and Write the RCA

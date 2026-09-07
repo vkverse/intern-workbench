@@ -40,6 +40,6 @@ body:
     attributes:
       label: Definition of done
       options:
-        - label: Scope, validation, documentation, evidence, and review requirements are complete.
+        - label: I have specified the scope, validation, evidence, and review needed before this task can be completed.
           required: true
 

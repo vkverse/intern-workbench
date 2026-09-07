@@ -12,7 +12,7 @@ skills:
   - debugging
   - root-cause-analysis
   - verification
-status: active
+status: draft
 ---
 
 # DEBUG-002 — Debug with Browser DevTools and the Console

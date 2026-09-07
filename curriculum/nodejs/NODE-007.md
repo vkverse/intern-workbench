@@ -12,7 +12,7 @@ skills:
   - nodejs
   - backend
   - architecture
-status: active
+status: draft
 ---
 
 # NODE-007 — Dependencies, Configuration, and Security

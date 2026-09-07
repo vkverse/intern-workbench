@@ -12,7 +12,7 @@ skills:
   - refactoring
   - maintainability
   - code-quality
-status: active
+status: draft
 ---
 
 # QUALITY-001 — Improve Naming and Function Design

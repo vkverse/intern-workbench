@@ -1,10 +1,15 @@
 # Roadmap
 
-## V1
+## v0.5 public preview
 
-GitHub-native web-development curriculum, onboarding, mentor operations, templates, objective validation, evaluation, schedules, projects, and customization.
+Usable starter route, clear setup, isolated submissions, runnable exercises, objective checks, and transparent readiness status. See [release scope](docs/releases/v0.5.md).
 
-## Later, based on maintainer capacity
+## Next milestones
 
-Additional language or role tracks, richer starter fixtures, translations, and optional organization-level workflow templates. A dashboard, LMS, AI detector, billing, hosted service, and HR platform are explicitly out of scope.
+- Observe an unassisted pilot and address documented friction.
+- Deepen orientation/Git/HTML coverage with independently reviewed exercises.
+- Promote React/Next.js and PostgreSQL/authentication outlines only when their actual starters and contracts exist.
+- Deliver a complete company-replaceable full-stack capstone.
+
+No task-count target substitutes for useful learning. Do not add dashboards, billing, LMS, AI detection, or hosted infrastructure.
 

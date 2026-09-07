@@ -1,5 +1,8 @@
 # JS — JavaScript
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [JS-001 — Variables, Data Types, Operators, and Conditionals](JS-001.md)
 - [JS-002 — Loops, Functions, and Scope](JS-002.md)
 - [JS-003 — Arrays, Objects, and Destructuring](JS-003.md)

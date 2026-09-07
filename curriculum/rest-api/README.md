@@ -1,5 +1,8 @@
 # API — REST APIs
 
+Check task status in the [catalogue](../../CURRICULUM.md) before assignment.
+Only active tasks belong to the [v0.5 starter route](../../tracks/starter.md); draft entries are reserved outlines.
+
 - [API-001 — Model Resources, Routes, and Methods](API-001.md)
 - [API-002 — Separate Routes and Controllers](API-002.md)
 - [API-003 — Validate Requests and Design Responses](API-003.md)

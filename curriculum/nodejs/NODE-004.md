@@ -12,7 +12,7 @@ skills:
   - nodejs
   - backend
   - architecture
-status: active
+status: draft
 ---
 
 # NODE-004 — Middleware and Request Lifecycle

@@ -12,7 +12,7 @@ skills:
   - html
   - accessibility
   - semantics
-status: active
+status: draft
 ---
 
 # HTML-003 — Build Accessible Tables

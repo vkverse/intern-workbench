@@ -12,7 +12,7 @@ skills:
   - docker
   - containers
   - local-development
-status: active
+status: draft
 ---
 
 # DOCKER-006 — Debug and Document a Full Local Environment
